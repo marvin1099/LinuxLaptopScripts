@@ -1,18 +1,18 @@
 # LinuxLaptopScrips Main
-https://codeberg.org/marvin1099/LinuxLaptopScrips  
-https://codeberg.org/marvin1099/LinuxLaptopScrips#Description  
-https://codeberg.org/marvin1099/LinuxLaptopScrips#PDF-Scripts  
-https://codeberg.org/marvin1099/LinuxLaptopScrips#Audip-Scripts  
-https://codeberg.org/marvin1099/LinuxLaptopScrips#Other-Files  
-https://codeberg.org/marvin1099/LinuxLaptopScrips#Download  
+https://codeberg.org/marvin1099/LinuxLaptopScripts  
+https://codeberg.org/marvin1099/LinuxLaptopScripts#Description  
+https://codeberg.org/marvin1099/LinuxLaptopScripts#PDF-Scripts  
+https://codeberg.org/marvin1099/LinuxLaptopScripts#Audip-Scripts  
+https://codeberg.org/marvin1099/LinuxLaptopScripts#Other-Files  
+https://codeberg.org/marvin1099/LinuxLaptopScripts#Download  
 
 # LinuxLaptopScrips Backup
-https://github.com/marvin1099/LinuxLaptopScrips  
-https://github.com/marvin1099/LinuxLaptopScrips#Description  
-https://github.com/marvin1099/LinuxLaptopScrips#PDF-Scripts  
-https://github.com/marvin1099/LinuxLaptopScrips#Audip-Scripts  
-https://github.com/marvin1099/LinuxLaptopScrips#Other-Files  
-https://github.com/marvin1099/LinuxLaptopScrips#Download  
+https://github.com/marvin1099/LinuxLaptopScripts  
+https://github.com/marvin1099/LinuxLaptopScripts#Description  
+https://github.com/marvin1099/LinuxLaptopScripts#PDF-Scripts  
+https://github.com/marvin1099/LinuxLaptopScripts#Audip-Scripts  
+https://github.com/marvin1099/LinuxLaptopScripts#Other-Files  
+https://github.com/marvin1099/LinuxLaptopScripts#Download  
 
 # Description
 These are a lot of my Linux bash scripts that in use for school.  
@@ -44,6 +44,6 @@ Most of them are for PDF conversion.
 
 # Download
 You can get the scripts here:  
-https://codeberg.org/marvin1099/LinuxLaptopScrips/releases  
+https://codeberg.org/marvin1099/LinuxLaptopScripts/releases  
 or you get them here:  
-https://gihub.com/marvin1099/LinuxLaptopScrips/releases  
+https://gihub.com/marvin1099/LinuxLaptopScripts/releases  
