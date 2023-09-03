@@ -8,7 +8,7 @@ https://codeberg.org/marvin1099/LinuxLaptopScrips#Download
 
 # LinuxLaptopScrips Backup
 https://github.com/marvin1099/LinuxLaptopScrips  
-https://github.com/marvin1099/LinuxLaptopScrips#PDF-Scripts 
+https://github.com/marvin1099/LinuxLaptopScrips#PDF-Scripts  
 https://github.com/marvin1099/LinuxLaptopScrips#Description  
 https://github.com/marvin1099/LinuxLaptopScrips#Audip-Scripts  
 https://github.com/marvin1099/LinuxLaptopScrips#Other-Files  
