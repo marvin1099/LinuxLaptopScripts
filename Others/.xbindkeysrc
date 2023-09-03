@@ -1,0 +1,178 @@
+# For the benefit of emacs users: -*- shell-script -*-
+###########################
+# xbindkeys configuration #
+###########################
+#
+# Version: 1.8.7
+#
+# If you edit this file, do not forget to uncomment any lines
+# that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# To specify a key, you can use 'xbindkeys --key' or
+# 'xbindkeys --multikey' and put one of the two lines in this file.
+#
+# The format of a command line is:
+#    "command to start"
+#       associated key
+#
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h
+# The XK_ is not needed.
+#
+# List of modifier:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+#
+
+# The release modifier is not a standard X modifier, but you can
+# use it if you want to catch release events instead of press events
+
+# By defaults, xbindkeys does not pay attention with the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines above if you want to pay attention to them.
+
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+# Examples of commands:
+
+# "xbindkeys_show"
+#  control+shift + q
+
+# set directly keycode (here control + f with my keyboard)
+# "xterm"
+#  c:41 + m:0x4
+
+# specify a mouse button
+# "xterm"
+#  control + b:2
+
+#"xterm -geom 50x20+20+20"
+#   Shift+Mod2+alt + s
+#
+## set directly keycode (here control+alt+mod2 + f with my keyboard)
+#"xterm"
+#  alt + c:0x29 + m:4 + mod2
+#
+## Control+Shift+a  release event starts rxvt
+#"rxvt"
+#  release+control+shift + a
+#
+## Control + mouse button 2 release event starts rxvt
+#"rxvt"
+#  Control + b:2 + Release
+
+"kcalck"
+    Mod2 + XF86Calculator
+
+# "@" Symbol with Control+Alt+q
+"xdotool key --clearmodifiers U0040"
+    Release + Control+Alt+q
+
+# "€" Symbol with Control+Alt+e
+"xdotool key --clearmodifiers U20AC"
+    Release + Control+Alt+e
+
+# "µ" Symbol with Control+Alt+m
+"xdotool key --clearmodifiers U00B5"
+    Release + Control+Alt+m
+
+# "{" Symbol with Control+Alt+7
+"xdotool key --clearmodifiers U007B"
+    Release + Control+Alt+7
+
+# "[" Symbol with Control+Alt+8
+"xdotool key --clearmodifiers U005B"
+    Release + Control+Alt+8
+
+# "]" Symbol with Control+Alt+9
+"xdotool key --clearmodifiers U005D"
+    Release + Control+Alt+9
+
+# "}" Symbol with Control+Alt+0
+"xdotool key --clearmodifiers U007D"
+    Release + Control+Alt+0
+
+# "²" Symbol with Control+Alt+2
+"xdotool key --clearmodifiers U00B2"
+    Release + Control+Alt+2
+
+# "³" Symbol with Control+Alt+3
+"xdotool key --clearmodifiers U00B3"
+    Release + Control+Alt+3
+
+# "~" Symbol with Control+Alt++
+"xdotool key --clearmodifiers U007E"
+    Release + Control+Alt+plus
+
+# "\" Symbol with Control+Alt+ß
+"xdotool key --clearmodifiers U005C"
+    Release + Control+Alt+ssharp
+
+# "³" Symbol with Control+Alt+<
+"xdotool key --clearmodifiers U007C"
+    Release + Control+Alt+less
+
+
+# Open Settings with F9 + Fn (Fn is allways active)
+"systemsettings"
+    Release + Mod2+Mod4 + i
+
+# Partial Screenshot with Shift + Druck + Fn (Fn is allways active)
+"spectacle -r"
+    Release + Shift + m:0x10 + c:248
+
+# Full Screenshot with Druck + Fn (Fn is allways active)
+"spectacle"
+    Release + m:0x10 + c:248
+
+# Toggle audio of Speaker with Shift + F1 + Fn (Fn is allways active)
+"bash $HOME/Scripts/speakertoggle.sh"
+    Release + Shift+Mod2 + XF86AudioMute
+
+# On clrl+alt+tab select a open progamm to be in focus
+"bash $HOME/Scripts/programmtab.sh"
+    Release + Control+Alt+Mod2 + Tab
+
+# Mic volume with all relevant audio device
+"bash $HOME/Scripts/microphonesync.sh raise"
+    Release + Mod2 + Shift + XF86AudioRaiseVolume
+
+# Mic volume with all relevant audio device
+"bash $HOME/Scripts/microphonesync.sh lower"
+    Release + Mod2 + Shift + XF86AudioLowerVolume
+
+# Sync volume with relevant audio device
+"bash $HOME/Scripts/volumesync.sh raise"
+    Release + Mod2 + XF86AudioRaiseVolume
+
+# Sync volume with relevant audio device
+"bash $HOME/Scripts/volumesync.sh lower"
+    Release + Mod2 + XF86AudioLowerVolume
+
+# Sync volume with relevant audio device
+"bash $HOME/Scripts/minimizeall.sh"
+    Release + Mod2+Mod4 + d
+
+"bash $HOME/Scripts/mute.sh"
+    Release + Mod2 + XF86AudioMicMute
+
+# Kill window on shift + micmute
+"xdotool windowkill $(xdotool getactivewindow)"
+    Release + Mod2+ Shift + XF86AudioMicMute
+
+#minimize open window with shift britnessdown
+"xdotool windowminimize $(xdotool getactivewindow)"
+    Release + Mod2 + Shift + XF86MonBrightnessDown
+
+"bash $HOME/Scripts/mutedual.sh"
+    Release + Mod2 + XF86AudioMute
+
+# End of xbindkeys configuration
+
+##################################
+# End of xbindkeys configuration #
+##################################
