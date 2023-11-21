@@ -8,6 +8,6 @@ do
     filename="${fullname%.*}"
     echo "-png -r 300 \"$fullpath\" \"${path}${filename}-xx.png\""
     #pdftoppm "-png" "-r" "300" "$fullpath" "${path}${filename}"
-    convert "$fullpath" "${path}${filename}.png"
+    convert -density 300 "$fullpath" -quality 100 "${path}${filename}.png"
 done
 

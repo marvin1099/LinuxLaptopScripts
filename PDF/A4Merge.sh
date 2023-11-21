@@ -19,7 +19,7 @@ do
     echo "\"$fullpath\" \"${path}${filename}-xx.png\""
     rm -r "/tmp/pdf-a4-merge-pas"
     mkdir "/tmp/pdf-a4-merge-pas"
-    convert "$fullpath" "/tmp/pdf-a4-merge-pas/p.png"
+    convert -density 300 "$fullpath" -quality 100 "/tmp/pdf-a4-merge-pas/p.png"
     cd "/tmp/pdf-a4-merge-pas"
     pnr=1
     for f in $(ls --color=never -1)
