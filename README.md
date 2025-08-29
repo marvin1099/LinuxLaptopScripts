@@ -37,10 +37,10 @@ Most of them are for PDF conversion.
 |VolumeSync.sh    |Input can be the string "lower" or "raise", No Output           |kde-plasma pactl awk                        |              Uses arg to increase or decrease the speaker volume and syncs the volume to all alsa, bluetooth, and virtual media/them to the same volume  |
 |MicrophoneSync.sh|Input can be the string "lower" or "raise", No Output           |kde-plasma pactl awk                        |              Uses arg to increase or decrease the mic volume and syncs the volume to all alsa, bluetooth, and virtual micmirror to the same volume       |
 # Other-Files
-|File in /Other   |Intput / Output                                                 |Requires                                    |Description|
-|-----------------|----------------------------------------------------------------|--------------------------------------------|-----------|
-|Minimizeall.sh   |No I/O but, Saves minimized.txt to remember minimized windows   |xserver xprop xwininfo xdotool awk          |              Takes no arguments gets the opened windows and minimizes all of them. If all windows are minimized it restores all of them                  |
-|.xbindkeysrc     |Thats a config file. So no Inputs and Outputs                   |xbindkeys                                   |              Can be used for nice laptop shortcuts for yoga 9i (also includes https://codeberg.org/marvin1099/xbindkeys-german-keyboard)                 |
+|File in /Other                    |Intput / Output                                          |Requires                          |Description|
+|----------------------------------|---------------------------------------------------------|----------------------------------|-----------|
+|Minimizeall.sh                    |No I/O; Saves minimized.txt to remember minimized windows|xserver xprop xwininfo xdotool awk|           Takes no arguments gets the opened windows and minimizes all of them. If all windows are minimized it restores all of them                  |
+|windows-third-layer-compat-map.yml|Thats a config file. So no Inputs and Outputs            |xremap                            |           Can be used for german 3 layer laptop shortcuts (https://codeberg.org/marvin1099/xremap-german-keyboard)                                    |
 
 # Download
 You can get the scripts here:  
