@@ -41,6 +41,7 @@ Most of them are for PDF conversion.
 |----------------------------------|---------------------------------------------------------|----------------------------------|-----------|
 |Minimizeall.sh                    |No I/O; Saves minimized.txt to remember minimized windows|xserver xprop xwininfo xdotool awk|           Takes no arguments gets the opened windows and minimizes all of them. If all windows are minimized it restores all of them                  |
 |windows-third-layer-compat-map.yml|Thats a config file. So no Inputs and Outputs            |xremap                            |           Can be used for german 3 layer laptop shortcuts (https://codeberg.org/marvin1099/xremap-german-keyboard)                                    |
+|.xbindkeysrc                      |Thats a config file. So no Inputs and Outputs            |xbindkeys                         |              Can be used for nice laptop shortcuts on some laptops (ONLY X11 use yml; also has https://codeberg.org/marvin1099/xbindkeys-german-keyboard)|
 
 # Download
 You can get the scripts here:  
